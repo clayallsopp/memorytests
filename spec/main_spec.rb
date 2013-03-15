@@ -1,7 +1,7 @@
 describe "Application 'MemoryTest'" do
   # This spec fails
   it "async should work" do
-    called = false
+    called = "anything"
     MetaBasic.long_operation do
       called = true
       resume
